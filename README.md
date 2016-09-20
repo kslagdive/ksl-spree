@@ -22,3 +22,34 @@ The Cloud9 IDE team
 
 Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
 To watch some training videos, visit http://www.youtube.com/user/c9ide
+
+
+https://github.com/spree/spree
+http://guides.spreecommerce.org/developer/heroku.html
+
+
+bundle clean --force
+
+heroku run rake db:migrate
+seed database-->
+
+load sample-->
+
+heroku pg:psql
+heroku pg:psql --app ksl-spree DATABASE
+
+\? - psql help
+
+Heroku Postgress Reset -
+
+1. heroku pg:reset DATABASE
+2. heroku run rake db:migrate
+3. heroku run rake db:seed
+4. 
+
+
+clean c9 workspace - 
+du-c9 | sort -h
+rm -rf /home/ubuntu/.local/share/heroku & Gems
+
+rake -T - lists rake tasks
